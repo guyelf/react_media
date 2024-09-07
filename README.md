@@ -1,3 +1,7 @@
+# Media
+An all inclusive React project to create users and allow them to add albums and photos.
+Playground for using Redux and RTK Toolkit to store the data locally and cache it smartly.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
