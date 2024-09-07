@@ -1,0 +1,68 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Myra"
+    },
+    {
+      "id": "d220",
+      "name": "Mrs. Mary Stracke"
+    },
+    {
+      "id": "2520",
+      "name": "Jonathan Huel"
+    },
+    {
+      "id": "347b",
+      "name": "Melba DuBuque"
+    },
+    {
+      "id": "8317",
+      "name": "Rosemary Feil"
+    }
+  ],
+  "albums": [
+    {
+      "id": "10",
+      "title": "Hiking trip",
+      "userId": "1"
+    },
+    {
+      "id": "39f4",
+      "userId": "1",
+      "title": "Handmade Fresh Fish"
+    },
+    {
+      "id": "1715",
+      "userId": "d220",
+      "title": "Electronic Frozen Fish"
+    },
+    {
+      "id": "12d7",
+      "userId": "347b",
+      "title": "Elegant Concrete Mouse"
+    }
+  ],
+  "photos": [
+    {
+      "id": "14e2",
+      "albumId": "10",
+      "url": "https://loremflickr.com/150/150/abstract?lock=12354"
+    },
+    {
+      "id": "a6d8",
+      "albumId": "10",
+      "url": "https://loremflickr.com/150/150/abstract?lock=56042"
+    },
+    {
+      "id": "749c",
+      "albumId": "39f4",
+      "url": "https://loremflickr.com/150/150/abstract?lock=23679"
+    },
+    {
+      "id": "528b",
+      "albumId": "1715",
+      "url": "https://loremflickr.com/150/150/abstract?lock=48680"
+    }
+  ]
+}
