@@ -12,11 +12,6 @@ const albumsApi = createApi({
   reducerPath: "albums",
   baseQuery: fetchBaseQuery({
     baseUrl: "http://localhost:3005",
-    fetchFn: async (...args) => {
-      // REMOVE BEFORE PRODUCTION - THIS IS OVERRIDING THE UNDERLYING fetch() function used by redux to introduce a small delay to see the spinners
-      await pause(1000);
-      return fetch(...args);
-    },
   }),
   endpoints(builder) {
     return {
